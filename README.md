@@ -1,1 +1,0 @@
-# simplegridco.github.io
