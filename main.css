@@ -79,3 +79,29 @@ input[type="email"] {
     background-color: #292929;
     border-color: #292929;
 }
+
+@media (max-width: 575px) {
+
+  body {
+    font-size: 16px;
+  }
+  .nav-hero {
+    font-size: 24px;
+    line-height: 1rem;
+  }
+
+  .row {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .newsletter-wrapper {
+    margin-top: 40px !important;
+    border: 0;
+  }
+
+  .sg-footer {
+    padding: 0.5rem 1rem;
+    letter-spacing: 2.1pt;
+  }
+}
