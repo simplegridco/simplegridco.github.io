@@ -1,106 +1,81 @@
-@import url("https://fonts.googleapis.com/css?family=Roboto+Condensed|Roboto:300");
-body,
-html {
-  padding: 0;
-  margin: 0;
-  font-family: 'Roboto', sans-serif;
-  color: #022F40; }
+body {
+  font-family: 'Roboto Slab', serif;
+  color: #292929;
+  font-size: 18px;
+  height: 100vh;
+}
 
-a {
-  padding: 0;
-  text-decoration: none; }
 
-h1 {
-  font-family: 'Roboto Condensed', sans-serif; }
+.sg-navbar {
+  padding: 1.2rem 1rem !important;
+}
 
-input {
-  padding: 10px 15px;
-  width: 60%;
-  border: 1px solid #98A0A6;
-  border-radius: 2px;
-  font-family: 'Roboto', sans-serif;
-  color: #022F40;
-  font-size: 16px; }
-  input:focus {
-    outline: 0;
-    border: 1px solid #E5673E; }
+.sg-footer {
+  padding: 1.2rem 1rem !important;
+  background-color: #292929;
+  color: #A2AEB6;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 10px;
+  letter-spacing: 3.1pt;
+  text-transform: uppercase;
+}
 
-.button {
-  background: #4ACCA3;
-  color: #fff;
-  font-size: 16px;
-  padding: 12px 40px;
-  border: 0;
-  border-radius: 2px;
-  margin-left: 20px;
-  cursor: pointer;
-  width: auto; }
-  .button:hover {
-    opacity: 0.8; }
-  .button:focus {
-    outline: 0; }
+.sg-footer-nav {
+  line-height: 0;
+}
 
-.container {
-  display: flex;
-  height: 100vh; }
-
-.logo-wrapper img {
-  width: 30%; }
-
-.left-side {
-  background: #F6F1E4;
-  width: 20%;
-  flex-grow: 1;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  padding: 40px; }
-
-form p {
-  font-size: 12px; }
-
-.icons-wrapper {
-  margin-top: 20px; }
-
-.twitter-icon {
-  width: 5%; }
-
-.medium-icon {
-  width: 5%;
-  margin-left: 10px; }
-
-footer {
-  display: flex;
-  justify-content: center;
-  height: 10vh;
-  align-items: flex-end; }
-
-.copyright {
+.sg-nav .nav-item > a.nav-link {
+  font-family: 'Montserrat', sans-serif;
   font-size: 12px;
-  opacity: .3; }
+  color: #454545;
+  letter-spacing: 3.1pt;
+  text-transform: uppercase;
+}
 
-.right-side {
-  background: url(https://images.unsplash.com/photo-1497348411082-7ab34fa26e2a) center no-repeat;
-  background-size: cover;
-  flex-grow: 2;
-  display: flex;
-  justify-content: flex-end;
-  align-items: flex-end;
-  padding-right: 10px;
-  padding-bottom: 10px; }
+.nav .nav-item > a.nav-link:hover {
+  text-decoration: underline;
+}
 
-@media screen and (max-width: 768px) {
-  .container {
-    flex-direction: column; }
+.nav-hero {
+  font-family: 'Roboto Slab', serif;
+  font-size: 72px;
+  line-height: 4.5rem;
+}
 
-  .left-side {
-    width: auto; }
+.nav-hero a.nav-link {
+  color: #292929;
+}
 
-  input {
-    width: auto; }
+.nav-hero a.nav-link:hover {
+  text-decoration: underline;
+}
 
-  .button {
-    margin-left: 0;
-    margin-top: 10px; } }
+.newsletter-wrapper {
+  border-left: 2px solid #292929;
+  padding: 0 0.5rem;
+}
 
-/*# sourceMappingURL=main.css.map */
+input[type="email"] {
+  border-radius: 0px !important;
+  /*background-color: #292929;*/
+  color: #fff;
+  border: 1px solid #292929;
+}
+
+.sg-btn {
+  border-radius: 0px !important;
+  font-size: 12px;
+  color: #292929;
+  background-color: #fff;
+  border: 1px solid #292929;
+  padding: 0.6rem 5rem;
+  font-family: 'Montserrat', sans-serif;
+  letter-spacing: 3.1pt;
+  text-transform: uppercase;
+}
+
+.sg-btn:hover {
+    color: #fff;
+    background-color: #292929;
+    border-color: #292929;
+}
